@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <sys/types.h>
 #include <sys/stat.h>
+#include<stdlib.h>
 #include <fcntl.h>
 #include <string.h>
 #include <unistd.h>
@@ -82,7 +83,6 @@ int main (int argc, char **argv)
     }
 }
 
-// Print system error and exit
 void error (char *msg)
 {
     perror (msg);
